@@ -1,0 +1,19 @@
+[
+    {
+        "data1":{
+            "id":"1",
+            "isim":"test",
+            "ulke":"Türkiye",
+            "plan":"denemePlani",
+            "status":"aktif"
+        },
+
+        "data2":{
+            "id":"2",
+            "isim":"beispiel",
+            "ulke":"Deutschland",
+            "plan":"versuchPlan",
+            "status":"deaktif"
+        }
+    }
+]

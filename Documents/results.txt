@@ -1,0 +1,8 @@
+[
+  "\n            User Agent\n            Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\n          ",
+  "\n            CodeName\n            Mozilla\n          ",
+  "\n            Name\n            Google Chrome\n          ",
+  "\n            Version\n            5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\n          ",
+  "\n            Cookies Enabled\n            true\n          ",
+  "\n            Platform\n            MacIntel\n          "
+]
