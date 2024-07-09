@@ -1,0 +1,11 @@
+{
+    "url1":{
+        "baseUrl": "http://dev.shop.clarusway.net",
+        "apiKey":"yout_url1_api_key",
+        "token":"token"
+    },
+
+    "url2":{
+        "baseUrl":"https://dev.google.com"
+    }
+}

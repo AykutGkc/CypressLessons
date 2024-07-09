@@ -25,7 +25,8 @@
     "cy:cache:list": "cypress cache list",
     "cy:verify": "cypress verify",
     "cy:e2e:firstFolder": "cypress run --spec ''cypress/e2e/1-getting-started''",
-    "cy:e2e:cypress-dersleri": "cypress run --spec ''cypress/e2e/Cypress-dersleri'' --browser chrome --headed"
+    "cy:e2e:cypress-dersleri": "cypress run --spec ''cypress/e2e/Cypress-dersleri'' --browser chrome --headed",
+    "cy:parallel:cypress-lessons": "cypress-parallel -d cypress/e2e/Cypress-Lessons -t 6 -s cy:run:headed"
   },
   "author": "",
   "license": "ISC",
@@ -38,9 +39,11 @@
     "cypress-if": "^1.12.3",
     "cypress-iframe": "^1.0.1",
     "cypress-xpath": "^2.0.1",
-    "mocha": "^10.4.0"
+    "mocha": "^10.4.0",
+    "playwright-webkit": "^1.45.1"
   },
   "dependencies": {
+    "cypress-parallel": "^0.14.0",
     "cypress-real-events": "^1.13.0"
   }
 }
