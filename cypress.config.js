@@ -6,7 +6,8 @@ const fs = require("fs");
 
 module.exports = defineConfig({
   viewportWidth: 1000,
-  viewportHeight: 1200,
+  viewportHeight: 1500,
+  reporter: "cypress-mochawesome-reporter",
   e2e: {
     setupNodeEvents(on, config) {
       if (process.env.CYPRESS_ENV) {
